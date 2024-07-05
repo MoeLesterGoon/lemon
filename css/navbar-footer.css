@@ -1,0 +1,90 @@
+.navbar {
+    display: flex;
+    padding: 7px 25px;
+    padding-right: 100%;
+    justify-content: space-between;
+    overflow: hidden;
+    position: sticky;
+    width: 98vw;
+    top: 0;
+    background-color: white;
+    z-index: 999;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-main {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    align-items: center;
+}
+
+.navbar-info {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-main button {
+    cursor: pointer;
+    border: none;
+    font-weight: 700;
+    font-size: 0.938rem;
+    background: none;
+}
+
+.navbar-info-side {
+    color: rgb(0, 64, 212);
+    font-weight: 700;
+    font-size: 0.938rem;
+}
+
+.navbar-info-main {
+    font-weight: 700;
+    font-size: 0.813 rem;
+    color: white;
+    background-color: rgb(0, 64, 212);
+    padding: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.search-svg {
+    background-color: rgb(238, 238, 238);
+    padding: 4px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.footer{
+    background-color: #0040d4;
+    width: 90%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 1% 5%;
+    color: white;
+    justify-content: space-between;
+}
+.icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.credits-container{
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.credits-container div{
+    display: flex;
+    flex-direction: column;
+}
+.rights{
+    display: flex;
+    justify-content: space-between;
+}

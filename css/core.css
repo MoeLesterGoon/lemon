@@ -1,0 +1,127 @@
+* {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 0 auto;
+    width: 1190px !important;
+}
+.category{
+    font-weight: 700;
+    color: rgb(0, 64, 212);
+    font-size: 0.625rem;
+    line-height: 14px;
+}
+.header{
+    font-size: 1rem;
+    line-height: 1.325rem;
+    font-weight: 700;
+    word-break: break-word;
+}
+.big-header{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+    word-break: break-word;
+}
+.author{
+    color: rgb(114, 128, 143);
+    font-weight: 400;
+    font-size: 0.75rem;
+}
+.margin-top-15{
+    margin-top: 15px;
+}
+.lil-bigger-header{
+    font-size: 1.1rem;
+}
+.rounded-img{
+    border-radius: 1%;
+}
+.no-padding{
+    padding: 0;
+}
+.important-width{
+    width: 717px !important;
+}
+
+[id^="navbar-popover-"] {
+    position: absolute;
+    inset: unset;
+    top: anchor(bottom);
+    left: anchor(left);
+    padding: 17px 42px 25px 30px;
+    border: 1px solid rgb(222, 226, 230);
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+#nav-anchor-1 {
+    anchor-name: --anchor-el-1;
+}
+
+#nav-anchor-2 {
+    anchor-name: --anchor-el-2;
+}
+
+#nav-anchor-3 {
+    anchor-name: --anchor-el-3;
+}
+
+#nav-anchor-4 {
+    anchor-name: --anchor-el-4;
+}
+
+#nav-anchor-5 {
+    anchor-name: --anchor-el-5;
+}
+
+#nav-anchor-6 {
+    anchor-name: --anchor-el-6
+}
+
+[id^="navbar-popover-"] div {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+[id^="navbar-popover-"] div span {
+    border-bottom: 1px solid rgb(222, 226, 230);
+    padding: 5px 0;
+    font-weight: 700;
+    font-size: 0.875rem;
+    cursor: pointer;
+    line-height: 23px;
+}
+
+#navbar-popover-1 {
+    position-anchor: --anchor-el-1;
+}
+
+#navbar-popover-2 {
+    position-anchor: --anchor-el-2;
+}
+
+#navbar-popover-3 {
+    position-anchor: --anchor-el-3;
+}
+
+#navbar-popover-4 {
+    position-anchor: --anchor-el-4;
+}
+
+#navbar-popover-5 {
+    position-anchor: --anchor-el-5;
+}
+
+#navbar-popover-6 {
+    position-anchor: --anchor-el-6;
+}

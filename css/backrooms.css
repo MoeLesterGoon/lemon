@@ -1,0 +1,43 @@
+.level-info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.dashed-line{
+    width: 950px;
+    align-self: center;
+    margin: 0;
+    height: 1px;
+    background-image: linear-gradient(90deg, #a3a3a3 33%, hsla(0, 0%, 100%, 0) 0);
+    background-position: bottom;
+    background-size: 3px 1px;
+    background-repeat: repeat-x;
+    border: none;
+}   
+.level-cat{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.level-more{
+    font-size: 0.813;
+    font-weight: 700;
+}
+.backrooms-level{
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+.backrooms-metadata{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px 20px 20px 20px;
+}
+.backrooms-bloc-container{
+    border: 1px #efefef solid;
+    border-radius: 5px;
+}
+.backrooms-data-container{
+    display: flex;
+    justify-content: space-between;
+}
